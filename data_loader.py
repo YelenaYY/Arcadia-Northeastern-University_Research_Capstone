@@ -32,3 +32,4 @@ def get_data_loaders(file_path, batch_size=32, split_ratio=0.8):
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=True)
 
     return train_loader, test_loader
+
